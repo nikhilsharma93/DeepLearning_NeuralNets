@@ -1,17 +1,4 @@
-----------------------------------------------------------------------
--- This script demonstrates how to define a training procedure,
--- irrespective of the model/loss functions chosen.
---
--- It shows how to:
---   + construct mini-batches on the fly
---   + define a closure to estimate (a noisy) loss
---     function, as well as its derivatives wrt the parameters of the
---     model to be trained
---   + optimize the function, according to several optmization
---     methods: SGD, L-BFGS.
---
--- Clement Farabet
-----------------------------------------------------------------------
+
 
 require 'torch'   -- torch
 require 'xlua'    -- xlua provides useful tools, like progress bars
