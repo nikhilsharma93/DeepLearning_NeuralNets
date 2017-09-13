@@ -1,9 +1,4 @@
-----------------------------------------------------------------------
--- This script implements a test procedure, to report accuracy
--- on the test data. Nothing fancy here...
---
--- Clement Farabet
-----------------------------------------------------------------------
+
 
 require 'torch'   -- torch
 require 'xlua'    -- xlua provides useful tools, like progress bars
